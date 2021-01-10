@@ -22,7 +22,7 @@ public class FilledGamePricesReviewController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${GAME_INFO_SERVICE_BASEURL:localhost:8051}")
+    @Value("${GAME_SERVICE_BASEURL:localhost:8051}")
     private String gameInfoServiceBaseUrl;
 
     @Value("${PRICES_SERVICE_BASEURL:localhost:8053}")

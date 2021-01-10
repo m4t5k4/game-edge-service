@@ -24,7 +24,7 @@ public class FilledGameReviewController {
     @Value("${REVIEW_SERVICE_BASEURL:localhost:8052}")
     private String reviewServiceBaseUrl;
 
-    @Value("${GAME_INFO_SERVICE_BASEURL:localhost:8051}")
+    @Value("${GAME_SERVICE_BASEURL:localhost:8051}")
     private String gameInfoServiceBaseUrl;
 
     @GetMapping("/rankings/user/{userId}")
