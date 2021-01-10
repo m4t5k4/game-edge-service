@@ -6,7 +6,11 @@
 
 Korte beschrijving van het gekozen thema + Diagram van de volledige microservices architectuur (met links naar ‘back-end’ repo’s) op GitHub README.md van de Edge microservice
 
-(.images/diagram)
+![Screenshot](.images/depdia.png)
+
+-----------------------------------------
+
+![Screenshot](.images/depdiatesting.png)
 
 Het gekozen thema is een game-distributieplatform (vb. Steam Store). In de back-office houden we daarom data bij voor games, reviews van gebruikers en prijzen in  verschillende valuta.
 
